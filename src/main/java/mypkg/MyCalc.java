@@ -21,6 +21,10 @@ public class MyCalc {
 	{
 		System.out.println("Hello Jenkins");
 	}
+	public void greeting()
+	{
+		System.out.println("Hello Jenkins");
+	}
 
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
@@ -28,6 +32,8 @@ public class MyCalc {
 		System.out.println("Diff is: "+calc.diff(20, 10));
 		System.out.println("Multiply is: "+calc.mul(20, 10));
 		System.out.println("Div is: "+calc.div(20, 10));
+		calc.show();
+		calc.greeting();
 
 	}
 
