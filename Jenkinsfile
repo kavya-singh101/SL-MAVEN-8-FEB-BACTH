@@ -33,7 +33,7 @@ pipeline
 			{
 				steps
 				{
-					echo "Build Success'
+					echo 'Build Success'
 				}
 			}
 			stage('Finish Stage')
