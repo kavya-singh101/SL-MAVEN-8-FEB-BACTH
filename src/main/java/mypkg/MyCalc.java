@@ -25,6 +25,10 @@ public class MyCalc {
 	{
 		System.out.println("Hello Jenkins");
 	}
+	public void branch()
+	{
+		System.out.println("This is Prod Branch");
+	}
 
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
@@ -34,6 +38,7 @@ public class MyCalc {
 		System.out.println("Div is: "+calc.div(20, 10));
 		calc.show();
 		calc.greeting();
+		calc.branch();
 
 	}
 
